@@ -26,7 +26,7 @@
 | **Backend** | Java Servlets, JDBC |
 | **Database** | MySQL |
 | **Server** | Apache Tomcat |
-| **IDE** | Eclipse / IntelliJ IDEA |
+| **IDE** | Eclipse |
 
 ---
 
