@@ -30,18 +30,12 @@
 
 ---
 
-## 📂 Project Structure
-signup/
-├── src/main/java/
-│ ├── com/uniquedeveloper/registration/
-│ │ ├── RegisterServlet.java
-│ │ ├── LoginServlet.java
-│ │ └── User.java
-│ └── dao/
-│ └── UserDao.java
-├── src/main/webapp/
-│ ├── WEB-INF/web.xml
-│ ├── register.jsp
-│ ├── login.jsp
-│ └── welcome.jsp
-└── lib/mysql-connector-java.jar
+🚀 Flow
+
+1) Register → Data saved to MySQL
+
+2) Login → Credentials verified
+
+3) Welcome Page → Accessible only if logged in
+
+4) Logout → Session destroyed
